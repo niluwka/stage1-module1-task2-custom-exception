@@ -44,4 +44,17 @@ public enum Student {
   public int getAge() {
     return age;
   }
+
+  public static class StudentNotFoundException extends IllegalArgumentException {
+
+    public StudentNotFoundException(String message) {
+      super(message);
+    }
+
+  }
+
+
+
+
+
 }
